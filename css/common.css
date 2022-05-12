@@ -16,6 +16,7 @@ css変数
 
 /* html 共通 */
 html {
+	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
 /* body 共通 */
