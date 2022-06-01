@@ -28,8 +28,100 @@
 トップ news
 -----------------------*/
 .top_news {
-	background: #aeaeae;
-	height: 600px;
+	padding: 100px 0;
+}
+
+.top_news .top_title {
+	margin-bottom: 80px;
+	font-size: 4.0rem;
+	font-weight: 400;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.top_news .top_news_list {
+	position: relative;
+}
+
+.top_news .top_news_item {
+	border-bottom: rgba(25, 25, 25, 0.2) solid 1px;
+}
+
+.top_news .top_news_item:last-child {
+	border-bottom: none;
+}
+
+.top_news .top_news_link {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	transition: .5s;
+}
+
+.top_news .top_news_content {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.top_news .tag {
+	display: flex;
+	justify-content: center;
+	min-width: 150px;
+}
+
+.top_news .tag_txt {
+	padding: 3px 15px;
+	background-color: var(--color_main);
+	border-radius: 20px;
+	color: #fff;
+}
+
+.top_news .top_news_txtArea {
+	flex-grow: 5;
+}
+
+.top_news .btnArea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10px;
+	padding: 3px;
+	background-color: var(--color_main);
+	border-radius: 20px;
+	color: #fff;
+	width: 25px;
+	transition: .5s;
+}
+
+.top_news .btn_more {
+	display: none;
+	visibility: hidden;
+	transition: .5s;
+}
+
+.top_news .top_news_bg {
+	position: absolute;
+	bottom: 0;
+	right: 5vw;
+	z-index: -1;
+}
+
+/* ホバー時 */
+.top_news .top_news_link:hover {
+	background-color: rgba(255, 65, 1, 0.1);
+	transition: .5s;
+}
+
+.top_news .top_news_link:hover .btnArea {
+	padding: 3px 10px;
+	width: 80px;
+	transition: .5s;
+}
+
+.top_news .top_news_link:hover .btn_more {
+	display: block;
+	visibility: visible;
+	transition: .5s;
 }
 
 /*-----------------------
