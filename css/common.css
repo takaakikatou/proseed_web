@@ -151,12 +151,17 @@ body {
 	align-items: center;
 }
 
-.header .header_ham_navItem {}
-
 .header .header_ham_link {
 	display: inline-block;
+	color: #fff;
 	font-size: 2.5rem;
 	margin: 3vh 0;
+	transition: .3s;
+}
+
+.header .header_ham_link:hover {
+	border-bottom: 1px solid #fff;
+	transition: .5s;
 }
 
 /* メイン */
