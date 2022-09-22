@@ -1,1 +1,38 @@
 @charset "utf-8";
+
+.news_headtxt {
+	display: flex;
+	font-size: 4.8rem;
+}
+
+.news_headtxt::before {
+	content: '';
+	display: block;
+}
+
+.news_list {
+	padding: 30px 0;
+}
+
+.news_item {
+	
+}
+
+.news_link {
+
+}
+
+.news_ttl {
+	margin-left: 10px;
+	font-size: 3.0rem;
+	color: var(--color_main);
+}
+
+.news_txt {
+	margin: 1vh 3vw;
+}
+
+.news_date {
+	margin-right: 10px;
+	text-align: right;
+}
