@@ -16,7 +16,6 @@ css変数
 
 /* html 共通 */
 html {
-	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
 /* body 共通 */
@@ -32,35 +31,9 @@ body {
 .header {
 	position: fixed;
 	width: 100%;
-	padding: 0 2.5vw;
-}
-
-.header .header_inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.header .header_navList {
-	display: flex;
-	align-items: center;
-}
-
-.header .header_navItem {
-	margin-left: 5vw;
-}
-
-.header .nav_contact {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100px;
 	height: 100px;
-	background-color: #ff4001;
-	border-radius: 50%;
-	color: #fff;
+	background: transparent;
 }
-
 /* メイン */
 .main {
 	
