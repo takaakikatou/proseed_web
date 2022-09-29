@@ -1,1 +1,77 @@
 @charset "utf-8";
+
+/*-----------------------
+about
+-----------------------*/
+.about {
+	
+}
+.about_contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+	background-color: #FF4001;
+}
+
+.about_content {
+	margin: 50px;
+	padding-top: 50px;
+	/* display: inline-block; */
+	font-size: 20px;
+}
+
+.about_hist{
+	position: relative;
+	height: 800px;
+	width: 100%;
+	margin-top: 200px;
+
+}
+
+.about_hr {
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 10px;
+	background-color: #fff;
+	transform: rotate(-18deg);
+	border: none;
+
+}
+
+.about_hist_2{
+	position: absolute;
+	right: 9%;
+	bottom: 3%;
+	color: #fff;
+	border-left: 7px #fff;
+	border-style: double;
+	padding-left: 20px;
+}
+
+.about_hist_2 h2{
+	font-size: 20px;
+}
+
+.about_hist_2 p{
+	font-size: 17px;
+}
+
+/* about イメージ */
+.about .about_img {
+	width: 550px;
+	height: 375px;
+	object-fit: cover;
+}
+
+.about_hist .about_img_hist{
+	position: absolute;
+	display: block;
+	width: 80%;
+	right: 0; 
+	bottom: 0;
+	z-index: -99;
+}
+
