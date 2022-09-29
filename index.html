@@ -19,7 +19,7 @@
 	<meta property="og:site_name" content="">
 	<meta property="og:locale" content="ja_JP">
 	<!-- favicon -->
-	<link rel="shortcut icon" href="img/logo.jpg">
+	<link rel="shortcut icon" href="img/logo.svg">
 	<!-- font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,28 +35,61 @@
 
 <body>
 	<header class="header">
-
-		ここにはヘッダーが入ります。仮で背景色を設定しています。aaa
-		<nav>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+		<div class="header_inner">
+			<div class="header_logo">
+				<img src="img/logo.svg" alt="proseed" width="150">
+			</div>
+			<div class="header_ham_btn sp_only">
+				<span class="header_ham_line"></span>
+				<span class="header_ham_line"></span>
+				<span class="header_ham_line"></span>
+			</div>
+			<nav class="header_nav pc_only">
+				<ul class="header_navList">
+					<li class="header_navItem">
+						<a href="#" class="header_link">About</a>
+					</li>
+					<li class="header_navItem">
+						<a href="#" class="header_link">Activity</a>
+					</li>
+					<li class="header_navItem">
+						<a href="#" class="header_link">News</a>
+					</li>
+					<li class="header_navItem nav_contact">
+						<a href="#" class="header_links">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<nav class="header_ham_nav sp_only">
+			<ul class="header_ham_navList">
+				<li class="header_ham_navItem">
+					<a href="#" class="header_ham_link">About</a>
+				</li>
+				<li class="header_ham_navItem">
+					<a href="#" class="header_ham_link">Activity</a>
+				</li>
+				<li class="header_ham_navItem">
+					<a href="#" class="header_ham_link">News</a>
+				</li>
+				<li class="header_ham_navItem">
+					<a href="#" class="header_ham_link">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 	<main class="main">
 		<section class="top_mv">
-			ここにはメインビジュアルが入ります。仮で背景色を設定しています。
+			<img src="img/top01.svg" alt="" class="top_img_01">
+			<h1 class="top_message">
+				<span class="top_ttl_head">PROSEED</span>: WE ARE MOVER & SHAKERS
+			</h1>
+			<hr class="top_hr">
 		</section>
 		<div class="wrapper">
 			<section class="top_about">
-				ここにはアバウトが入ります。仮で背景色を設定しています。
 			</section>
 			<section class="top_active">
-				ここにはアクティビティが入ります。仮で背景色を設定しています。
 			</section>
 			<section class="top_news">
 				<h2 class="top_title">News</h2>
@@ -133,7 +166,7 @@
 				</ul>
 			</section>
 			<section class="top_contact">
-				ここにはコンタクトが入ります。仮で背景色を設定しています。
+
 			</section>
 		</div>
 	</main>
