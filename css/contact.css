@@ -29,20 +29,36 @@
 	justify-content: center
 }
 
-.contact_toi {
+.contact_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 0 2vw;
 	padding: 30px;
 	border-radius: 100px;
 	background-color: var(--color_main);
+	white-space: nowrap;
+}
+
+.contact_form img {
+	max-width: 35px;
+}
+
+.contact_toi {
+	margin: 0 2vw;
+	border-radius: 20%;
+	background-color: var(--color_main);
 }
 
 .contact_twitter img {
-	width: 14%;
+	max-width: 35px;
+
 }
 
 .contact_twitter {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: 0 2vw;
 	padding: 30px;
 	border-radius: 100px;
