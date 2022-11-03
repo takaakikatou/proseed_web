@@ -1,27 +1,27 @@
 @charset "utf-8";
 
-.message_hr{
-    position: absolute;
-    width: 12%;
-    top: 16%;
+.message_hr {
+	position: absolute;
+	width: 12%;
+	top: 16%;
 }
 
-.contact_message h1{
-    margin-left: 15%;
-    font-size: 30px;
+.contact_message h1 {
+	margin-left: 15%;
+	font-size: 30px;
 
 }
 
-.contact_message h2{
-    margin-left: 14%;
-    font-size: 15px;
-    opacity: 50%;
+.contact_message h2 {
+	margin-left: 14%;
+	font-size: 15px;
+	opacity: 50%;
 }
 
-.contact_message p{
-    font-size: 30px;
-    margin: 70px 0;
-    text-align: center;
+.contact_message p {
+	font-size: 30px;
+	margin: 70px 0;
+	text-align: center;
 }
 
 .contact_link {
@@ -29,27 +29,31 @@
 	justify-content: center
 }
 
-.contact_toi{
+.contact_toi {
 	margin: 0 2vw;
 	padding: 30px;
-	border-radius:100px;
+	border-radius: 100px;
 	background-color: var(--color_main);
 }
 
-.contact_twitter img{
-    width: 14%;
+.contact_twitter img {
+	width: 14%;
 }
 
-.contact_twitter{
-    display: flex;
-    justify-content: center;
-    margin: 0 2vw;
+.contact_twitter {
+	display: flex;
+	justify-content: center;
+	margin: 0 2vw;
 	padding: 30px;
-	border-radius:100px;
+	border-radius: 100px;
 	background-color: var(--color_main);
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
-.contact_twitter_p{
-    padding-left: 3%;
+.contact_twitter_p {
+	padding-left: 3%;
+}
+
+.contact_txt {
+	color: #fff;
 }
