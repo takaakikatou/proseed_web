@@ -174,8 +174,31 @@ body {
 }
 
 /* フッター */
-.footer {
-	width: 100%;
-	height: 200px;
-	background: #333;
+.footer {}
+
+.footer_wrap {
+	display: flex;
+}
+
+.footer_detail {
+	width: 400px;
+	max-width: 400px;
+
+}
+
+.footer_list {
+	display: flex;
+	width: 25%;
+	flex: 1;
+	list-style: none;
+}
+
+.footer_item {
+	padding-left: 10px;
+	min-height: 200px;
+	border-left: 1px solid #ddd;
+}
+
+.footer_item {
+	width: 25%;
 }
