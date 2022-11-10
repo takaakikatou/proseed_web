@@ -203,4 +203,22 @@ body {
 	width: 25%;
 }
 
-.footer_link {}
+.footer_link {
+	display: block;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.footer_link_ttl {
+	font-size: 26px;
+	line-height: 0.9;
+}
+
+.footer_link_txt {
+	font-size: 12px;
+}
+
+.footer_link_item::before {
+	content: '-';
+	margin-right: 10px;
+}
