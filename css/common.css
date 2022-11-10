@@ -41,6 +41,19 @@ body {
 	}
 }
 
+/* ラッパー */
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1250px;
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		min-width: 375px;
+	}
+}
+
 /*--------------------
 レイアウト 共通
 --------------------*/
@@ -164,20 +177,12 @@ body {
 	transition: .5s;
 }
 
-/* メイン */
-.main {}
-
-/* ラッパー */
-.wrapper {
-	margin: 0 auto;
-	max-width: 1250px;
-}
-
 /* フッター */
 .footer {}
 
 .footer_wrap {
 	display: flex;
+	justify-content: space-between;
 }
 
 .footer_detail {
@@ -188,19 +193,14 @@ body {
 
 .footer_list {
 	display: flex;
-	width: 25%;
 	flex: 1;
 	list-style: none;
 }
 
 .footer_item {
 	padding-left: 10px;
-	min-height: 200px;
 	border-left: 1px solid #ddd;
-}
-
-.footer_item {
-	width: 25%;
+	width: 170px;
 }
 
 .footer_link {
@@ -220,5 +220,27 @@ body {
 
 .footer_link_item::before {
 	content: '-';
-	margin-right: 10px;
+	margin-right: 5px;
+}
+
+@media (max-width: 799px) {
+	.footer_wrap {
+		display: block;
+		width: 100%;
+	}
+
+	.footer_detail {
+		margin-bottom: 35px;
+	}
+
+	.footer_list {
+		display: block;
+		width: 100%;
+	}
+
+	.footer_item {
+		margin-bottom: 30px;
+		padding-left: 0;
+		border: none;
+	}
 }
