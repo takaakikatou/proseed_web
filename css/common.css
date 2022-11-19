@@ -177,6 +177,7 @@ body {
 /* フッター */
 .footer {
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .footer_wrap {
@@ -192,6 +193,7 @@ body {
 
 .footer_list {
 	display: flex;
+	justify-content: space-between;
 	flex: 1;
 	list-style: none;
 }
@@ -209,12 +211,12 @@ body {
 }
 
 .footer_link_ttl {
-	font-size: 26px;
+	font-size: 2.2rem;
 	line-height: 0.9;
 }
 
 .footer_link_txt {
-	font-size: 12px;
+	font-size: 1rem;
 }
 
 .footer_link_item::before {
