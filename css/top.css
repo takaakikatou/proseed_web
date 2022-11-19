@@ -1,9 +1,10 @@
 @charset "utf-8";
+@import "/css/common.css";
 
 /*-----------------------
 トップ mv
 -----------------------*/
-.top_mv{
+.top_mv {
 	height: 100vh;
 	position: relative;
 }
@@ -42,8 +43,76 @@
 トップ Activity
 -----------------------*/
 .top_active {
-	background: #434343;
-	height: 700px;
+	padding: 100px 0;
+}
+
+/* 見出し */
+.top_active .top_title {
+	margin-bottom: 80px;
+	font-size: 4.0rem;
+	font-weight: 400;
+	font-family: "Noto Sans", sans-serif;
+}
+
+/* swiper */
+.top_active .swiper {
+	position: relative;
+	width: 100%;
+	user-select: none;
+}
+
+/* swiper アクティブなアイテム */
+.top_active .swiper-slide-active {
+	width: auto !important;
+	padding-right: 8vw
+}
+
+/* swiper リンクエリア */
+.top_active .sw_link {
+	position: relative;
+	display: block;
+}
+
+/* swiper イメージ */
+.top_active .sw_img {
+	display: block;
+	width: 210px;
+	height: 210px;
+	object-fit: cover;
+}
+
+/* swiper 番号 */
+.top_active .sw_num {
+	position: absolute;
+	background-color: rgba(52, 52, 52, 0.5);
+	color: #d6d6d6;
+	font-size: 4.0rem;
+	left: 0;
+	bottom: 0;
+}
+
+.top_active .sw_dtl {
+	display: block;
+	position: absolute;
+	bottom: 50px;
+	left: calc(50% - 5vw);
+	z-index: 10;
+	margin-right: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top_active .sw_item {
+	display: none;
+}
+
+.top_active .swiper-slide-active .sw_link {
+	margin-left: 50px;
+}
+
+.top_active .swiper-slide-active .sw_img {
+	width: 350px;
+	height: 480px;
+	object-fit: cover;
 }
 
 /*-----------------------
@@ -82,7 +151,7 @@
 .top_news .top_news_content {
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
+	align-items: center;
 }
 
 .top_news .tag {
