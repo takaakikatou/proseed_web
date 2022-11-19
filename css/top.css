@@ -1,0 +1,136 @@
+@charset "utf-8";
+@import "/css/common.css";
+/*-----------------------
+トップ mv
+-----------------------*/
+.top_mv {
+	background: #d6d6d6;
+	height: 100vh;
+}
+
+/*-----------------------
+トップ about
+-----------------------*/
+.top_about {
+	height: 700px;
+}
+.about_contents {
+  display: flex;
+  justify-content: space-between;
+	padding: 60px;
+}
+.about_content {
+	margin: 50px;
+}
+.background-box {
+	position:  absolute;
+	top: 850px;
+	left: 0px;
+  width        : 1150px;
+  height       : 700px;
+  background   : #FF4001;
+	opacity: 0.25;
+	z-index: -99
+	;
+}
+
+/* about イメージ */
+.top_about .about_img {
+	width: 526px;
+	height: 375px;
+	object-fit: cover;
+
+}
+
+
+/*-----------------------
+トップ Activity
+-----------------------*/
+.top_active {
+	padding: 100px 0;
+}
+
+/* 見出し */
+.top_active .top_title {
+	margin-bottom: 80px;
+	font-size: 4.0rem;
+	font-weight: 400;
+	font-family: "Noto Sans", sans-serif;
+}
+
+/* swiper */
+.top_active .swiper {
+	position: relative;
+	width: 100%;
+	user-select: none;
+}
+
+/* swiper アクティブなアイテム */
+.top_active .swiper-slide-active {
+	width: auto !important;
+	padding-right: 8vw
+}
+
+/* swiper リンクエリア */
+.top_active .sw_link {
+	position: relative;
+	display: block;
+}
+
+/* swiper イメージ */
+.top_active .sw_img {
+	display: block;
+	width: 210px;
+	height: 210px;
+	object-fit: cover;
+}
+
+/* swiper 番号 */
+.top_active .sw_num {
+	position: absolute;
+	background-color: rgba(52, 52, 52, 0.5);
+	color: #d6d6d6;
+	font-size: 4.0rem;
+	left: 0;
+	bottom: 0;
+}
+
+.top_active .sw_dtl {
+	display: block;
+	position: absolute;
+	bottom: 50px;
+	left: calc(50% - 5vw);
+	z-index: 10;
+	margin-right: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top_active .sw_item {
+	display: none;
+}
+
+.top_active .swiper-slide-active .sw_link {
+	margin-left: 50px;
+}
+
+.top_active .swiper-slide-active .sw_img {
+	width: 350px;
+	height: 480px;
+	object-fit: cover;
+}
+
+/*-----------------------
+トップ news
+-----------------------*/
+.top_news {
+	background: #aeaeae;
+	height: 600px;
+}
+
+/*-----------------------
+トップ contact
+-----------------------*/
+.top_contact {
+	background: #202020;
+	height: 350px;
+}
