@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.news_headtxt {
+	display: flex;
+	font-size: 4.8rem;
+}
+
+.news_headtxt::before {
+	content: '';
+	display: block;
+}
+
+.news_list {
+	padding: 30px 0;
+}
+
+.news_item {
+	padding: 10px 0;
+}
+
+.news_item:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	transition: .5s;
+}
+
+.news_item:nth-child(2n) {
+	background-color: #dfdfdf;
+}
+
+.news_link {
+
+}
+
+.news_ttl {
+	margin-left: 10px;
+	font-size: 3.0rem;
+	color: var(--color_main);
+}
+
+.news_txt {
+	margin: 2vh 3vw;
+}
+
+.news_date {
+	margin-right: 10px;
+	color: var(--color_main);
+	text-align: right;
+}
