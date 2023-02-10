@@ -19,6 +19,7 @@ css変数
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 /* body 共通 */
