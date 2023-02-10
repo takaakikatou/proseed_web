@@ -166,12 +166,25 @@ body {
 }
 
 /* メイン */
-.main {}
+.main {
+	padding-top: 120px;
+}
 
 /* ラッパー */
 .wrapper {
 	margin: 0 auto;
 	max-width: 1250px;
+}
+
+/* 見出し */
+.headtxt {
+	display: flex;
+	font-size: 4.8rem;
+}
+
+.headtxt::before {
+	content: '';
+	display: block;
 }
 
 /* フッター */
